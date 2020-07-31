@@ -26,17 +26,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvBrocolli" />
 
-    <EditText
-        android:id="@+id/etBrocolli"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
-        android:ems="10"
-        android:hint="Brocolli"
-        android:inputType="textPersonName"
-        android:text="Brocollis are the best"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvBrocolli" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

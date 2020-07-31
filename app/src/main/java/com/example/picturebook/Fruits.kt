@@ -18,6 +18,15 @@ class Fruits : AppCompatActivity() {
                 startActivity(intent);
             }
         })
+        btnPrevious.setOnClickListener(object: View.OnClickListener {
+            override fun onClick(view: View): Unit {
+                // Handler code here.
+                val intent = Intent(baseContext, MainActivity::class.java);
+                startActivity(intent);
+            }
+        })
+
+
 
     }
 }

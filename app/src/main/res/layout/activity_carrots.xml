@@ -16,29 +16,36 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/download" />
 
-    <EditText
-        android:id="@+id/etCarrots"
-        android:layout_width="236dp"
-        android:layout_height="114dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:hint="Carrots"
-        android:inputType="textPersonName"
-        android:text="Carrots are a good source for powerful eyesight"
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:hint="next"
+        android:text="next"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.938"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="277dp"
+        android:layout_height="57dp"
+        android:text="The famous Carrots for good eyesight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="388dp" />
+
     <Button
-        android:id="@+id/btnBack"
+        android:id="@+id/btnPrevious"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="224dp"
-        android:hint="Back"
-        android:text="Back"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        android:layout_marginTop="240dp"
+        android:hint="previous"
+        android:text="Previous"
+        app:layout_constraintEnd_toStartOf="@+id/btnNext"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

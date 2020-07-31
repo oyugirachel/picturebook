@@ -14,6 +14,13 @@ class picture3 : AppCompatActivity() {
         btnNext.setOnClickListener(object: View.OnClickListener {
             override fun onClick(view: View): Unit {
                 // Handler code here.
+                val intent = Intent(baseContext, carrots::class.java);
+                startActivity(intent);
+            }
+        })
+        btnPrevious.setOnClickListener(object: View.OnClickListener {
+            override fun onClick(view: View): Unit {
+                // Handler code here.
                 val intent = Intent(baseContext, Fruits::class.java);
                 startActivity(intent);
             }

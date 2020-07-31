@@ -14,6 +14,13 @@ class Brocolli2 : AppCompatActivity() {
         btnNext.setOnClickListener(object: View.OnClickListener {
             override fun onClick(view: View): Unit {
                 // Handler code here.
+                val intent = Intent(baseContext, picture3::class.java);
+                startActivity(intent);
+            }
+        })
+        btnPrevious.setOnClickListener(object: View.OnClickListener {
+            override fun onClick(view: View): Unit {
+                // Handler code here.
                 val intent = Intent(baseContext, MainActivity::class.java);
                 startActivity(intent);
             }
